@@ -1,5 +1,5 @@
 public interface Action {
 //   void fullFil();
-    void printInfo();
+    String toString();
 
 }

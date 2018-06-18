@@ -41,8 +41,8 @@ public class Animals implements Action {
 //    }
 
     @Override
-    public void printInfo() {
-        System.out.println("Nazwa zwierzecia " + name + " Ilość: " + amount);
+    public String toString() {
+        return "Nazwa zwierzecia " + name + " Ilość: " + amount;
     }
 
     @Override

@@ -12,10 +12,8 @@ public class Test {
         }
 
 
-
-
-        animal[0].printInfo();
-        animal[1].printInfo();
+        System.out.println(animal[0].toString());
+        System.out.println(animal[1].toString());
 
 
 
